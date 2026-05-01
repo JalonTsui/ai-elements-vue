@@ -4,9 +4,6 @@ import { ChainOfThought } from '@repo/examples'
 
 <template>
   <div>
-    <div class=" text-blue-500 app">
-      123
-    </div>
     <ChainOfThought />
   </div>
 </template>
