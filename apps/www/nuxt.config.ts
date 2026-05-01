@@ -3,6 +3,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
 
+  // 禁用加载google的icon，否则加载会很慢
+  fonts: {
+    providers: {
+      google: false,
+      googleicons: false,
+    },
+  },
+
   vue: {
     compilerOptions: {
       isCustomElement: tag => tag.startsWith('media-'),
@@ -54,11 +62,16 @@ export default defineNuxtConfig({
     ],
   },
 
+  // ogImage: {
+  //   fonts: [
+  //     'Geist:400',
+  //     'Geist:700',
+  //   ],
+  // },
+
   ogImage: {
-    fonts: [
-      'Geist:400',
-      'Geist:700',
-    ],
+    googleFontMirror: true, // ← 启用镜像 fonts.font.im
+    fonts: ['Geist:400', 'Geist:700'],
   },
 
   build: {
