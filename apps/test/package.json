@@ -14,11 +14,15 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
+    "@repo/elements": "workspace:*",
+    "@repo/examples": "workspace:*",
     "pinia": "catalog:",
+    "tailwindcss": "catalog:",
     "vue": "catalog:",
     "vue-router": "catalog:"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
     "@tsconfig/node24": "catalog:",
     "@types/node": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
