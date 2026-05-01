@@ -18,18 +18,29 @@ overrides:
 
 catalog:
   '@rive-app/webgl2': ^2.35.0
+  '@tsconfig/node24': ^24.0.4
+  '@types/node': ^24.12.2
+  '@vitejs/plugin-vue': ^6.0.6
+  '@vitejs/plugin-vue-jsx': ^5.1.5
+  '@vue/tsconfig': ^0.9.1
   '@vueuse/core': ^14.1.0
   ai: ^6.0.168
   lucide-vue-next: ^0.555.0
   media-chrome: ^4.18.0
+  npm-run-all2: ^8.0.4
+  pinia: ^3.0.4
   reka-ui: ^2.8.0
   shiki: ^3.20.0
   tailwindcss: ^4.1.17
   typescript: ^5.9.3
+  vite: ^8.0.8
+  vite-plugin-vue-devtools: ^8.1.1
   vue: ^3.5.25
-  vue-sonner: ^2.0.9
-  zod: ^4.1.13
+  vue-router: ^5.0.4
 
+  vue-sonner: ^2.0.9
+  vue-tsc: ^3.2.6
+  zod: ^4.1.13
 allowedDeprecatedVersions:
   '@oxc-parser/wasm': 0.60.0
   '@types/parse-path': 7.1.0
