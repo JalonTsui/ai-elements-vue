@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["ES2020", "DOM"],
-    "baseUrl": ".",
+    "rootDir": ".",
     "paths": {
       "@repo/shadcn-vue/*": ["./*"],
       "@repo/*": ["../*"]
